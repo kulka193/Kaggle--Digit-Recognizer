@@ -48,3 +48,4 @@ def next_batch(X,y,batch_size,indices):
     batchx=X[indices[start:end],:]
     batchy=y[indices[start:end],:]
     return batchx,batchy
+
