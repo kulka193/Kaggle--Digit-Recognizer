@@ -3,7 +3,7 @@ This repository contains code file for Handwritten Digit Recognizer(Kaggle Compe
 
 The architecture used for the network was:
 
-Conv(5x5,32 channels stride=1) --> max-pool( stride=2) --> conv (5x5, 28 channels stride=1) --> max-pool(stride=2) --> flattened layer --> 3 fully connected layers(with tanh or relu) --> softmax layer (log probs) --> predicted output
+Conv(5x5,32 channels stride=1) --> max-pool( stride=2) --> conv (5x5, 28 channels stride=1) --> max-pool(stride=2) --> flattened layer --> 3 fully connected layers with 400, 120 and 80 neurons in each of the layer (with tanh or relu) --> softmax layer (log probs) --> predicted output
 
 The network was trained for about 10 epoch, with each epoch loading about (total number of training samples/batch size) amount of samples usinng minibatch SGD. 
 
@@ -12,7 +12,7 @@ Files used:
 
 * imshow.py: This file consists of methods which can be used to display labelled and predicted images
 
-* NN_main: Contains functions to initialize parameters(weights and biases) of the network, model and to train the NeuralNet
+* NN_main: Contains functions to initialize parameters(weights and biases) of the network, to prepare the NN model and to train the network
 
 Instructions to run on command Line(Ubuntu) bash:
 
