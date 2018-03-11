@@ -16,18 +16,19 @@ Files used:
 
 Instructions to run on command Line(Ubuntu):
 
-'''
+Download or clone from the github repopsitory
+```
 wget https://github.com/kulka193/Kaggle--Digit-Recognizer/archive/master.zip
-'''
-
-'''
+```
+unzip to extract files
+```
 unzip master.zip
-'''
-
-'''
+```
+change directory to your file path
+```
 cd "Your downloaded directory"
-'''
-
-'''
+```
+Run the main file
+```
 python NN_main.py
-'''
+```
