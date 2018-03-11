@@ -32,5 +32,13 @@ Run the main file
 ```
 $python NN_main.py
 ```
+Results:
+The below snapshot shows the cost function in eacch epoch and displays the training accuracy at the end of training phase
 ![training](https://user-images.githubusercontent.com/30439795/37257059-d2f756da-2531-11e8-81d0-6d6d606e01ae.PNG)
-![predicted_labels](https://user-images.githubusercontent.com/30439795/37257137-f8abd5ee-2532-11e8-9d7f-6b55c1213239.PNG)
+
+The Predicted labels from the test data:
+![3](https://user-images.githubusercontent.com/30439795/37257137-f8abd5ee-2532-11e8-9d7f-6b55c1213239.PNG)
+![5](https://user-images.githubusercontent.com/30439795/37257138-f8cc7be6-2532-11e8-9dbb-fcc7d87e378a.PNG)
+![8](https://user-images.githubusercontent.com/30439795/37257139-f8ed5302-2532-11e8-885c-7b85f0611d93.PNG)
+![6](https://user-images.githubusercontent.com/30439795/37257139-f8ed5302-2532-11e8-885c-7b85f0611d93.PNG)
+![](https://user-images.githubusercontent.com/30439795/37257141-f9714c5c-2532-11e8-8124-a801df7a17b7.PNG)
