@@ -3,7 +3,7 @@ This repository contains code file for Handwritten Digit Recognizer(Kaggle Compe
 
 The architecture used for the network was:
 
-Conv(5x5,32 channels stride=1)--max-pool( stride=2) -- conv (5x5, 28 channels stride=1) -- max-pool(stride=2) -- flattened layer --3 fully connected layers(with tanh or relu) -- softmax layer (log probs) -- predicted output
+Conv(5x5,32 channels stride=1) --> max-pool( stride=2) --> conv (5x5, 28 channels stride=1) --> max-pool(stride=2) --> flattened layer --> 3 fully connected layers(with tanh or relu) --> softmax layer (log probs) --> predicted output
 
 The network was trained for about 10 epoch, with each epoch loading about (total number of training samples/batch size) amount of samples usinng minibatch SGD. 
 
