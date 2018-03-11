@@ -14,21 +14,21 @@ Files used:
 
 * NN_main: Contains functions to initialize parameters(weights and biases) of the network, model and to train the NeuralNet
 
-Instructions to run on command Line(Ubuntu):
+Instructions to run on command Line(Ubuntu) bash:
 
 Download or clone from the github repopsitory
 ```
-wget https://github.com/kulka193/Kaggle--Digit-Recognizer/archive/master.zip
+$wget https://github.com/kulka193/Kaggle--Digit-Recognizer/archive/master.zip
 ```
 unzip to extract files
 ```
-unzip master.zip
+$unzip master.zip
 ```
 change directory to your file path
 ```
-cd "Your downloaded directory"
+$cd "Your downloaded directory"
 ```
 Run the main file
 ```
-python NN_main.py
+$python NN_main.py
 ```
