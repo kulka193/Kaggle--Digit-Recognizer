@@ -45,7 +45,7 @@ Predicted labels from the test data:
 =========
 ![8](https://user-images.githubusercontent.com/30439795/37257139-f8ed5302-2532-11e8-885c-7b85f0611d93.PNG)
 =========
-![6](https://user-images.githubusercontent.com/30439795/37257139-f8ed5302-2532-11e8-885c-7b85f0611d93.PNG)
+![6](https://user-images.githubusercontent.com/30439795/37257140-f9500ba0-2532-11e8-82ed-2f4eb99ba6ed.PNG)
 =========
 ![](https://user-images.githubusercontent.com/30439795/37257141-f9714c5c-2532-11e8-8124-a801df7a17b7.PNG)
 =========
