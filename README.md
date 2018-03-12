@@ -38,7 +38,7 @@ The below snapshot shows the cost function in eacch epoch and displays the train
 
 ![training](https://user-images.githubusercontent.com/30439795/37257059-d2f756da-2531-11e8-81d0-6d6d606e01ae.PNG)
 
-Predicted labels from the test data:
+Predicted labels from the test data and corresponding predicted value by our LeNet-5 for that particular index:
 ![3](https://user-images.githubusercontent.com/30439795/37257137-f8abd5ee-2532-11e8-9d7f-6b55c1213239.PNG)
 =========
 ![5](https://user-images.githubusercontent.com/30439795/37257138-f8cc7be6-2532-11e8-9dbb-fcc7d87e378a.PNG)
