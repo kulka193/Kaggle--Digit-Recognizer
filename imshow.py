@@ -27,3 +27,8 @@ def showpredictions(Xtest,pred_images):
         plt.imshow(Xtest[k,:].reshape(image_size,image_size),cmap='gray')
         plt.show()
         print('labels for indices {} : {}'.format((k+1),pred_images[k]))
+
+        
+        
+        
+        
