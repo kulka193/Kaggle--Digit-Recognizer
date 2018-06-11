@@ -9,10 +9,10 @@ import tensorflow as tf
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
 from subprocess import check_output
 #print(check_output(["ls","../input"]).decode("utf8"))
-#import matplotlib.pyplot as plt
+
 #% matplotlib inline
 import os
-import helper
+from helper dense_to_one_hot,next_batch,read_and_preprocess
 import imshow
 
 image_size=28
@@ -79,7 +79,7 @@ def train_neural_network(x):
     for epoch in range(hm_epochs):
         epoch_loss=0
         for i in range(int(num_train/batch_size)):
-            epoch_x, epoch_y = helper.next_batch(Xtrain,labels,batch_size,indices)
+            epoch_x, epoch_y = next_batch(Xtrain,labels,batch_size,indices)
             _, minibatchloss = sess.run([optimizer, cost], feed_dict={x: epoch_x, y: epoch_y, DROPOUT: keep_rate})
             epoch_loss += minibatchloss/batch_size
         print('Epoch', epoch+1, 'completed out of',hm_epochs,'loss:',epoch_loss)
@@ -97,13 +97,13 @@ def train_neural_network(x):
 
 if __name__=="__main__":
     counter=0
-    Xtrain,ytrain=helper.read_and_preprocess('train.csv')
+    Xtrain,ytrain=read_and_preprocess('train.csv')
     Xtest=helper.read_and_preprocess('test.csv')
     num_train=Xtrain.shape[0]
     num_test=Xtest.shape[0]
     imshow.showsamples(Xtrain,ytrain)
     indices=np.arange(num_train)
-    labels = helper.dense_to_one_hot(ytrain)
+    labels = dense_to_one_hot(ytrain)
     print(labels.shape)
     test_pred=train_neural_network(x)
     imshow.showpredictions(Xtest,test_pred)
